@@ -1,0 +1,15 @@
+{
+  "latest": "1.1.0",
+  "min_supported": "1.0.0",
+  "mandatory": false,
+  "changelog": "新增 demo_items 表(演示数据库迁移),页面展示新数据",
+  "bundle_url": "",
+  "images": {
+    "app": "ghcr.io/chunge-php/onprem-deploy-demo/app"
+  },
+  "channels": {
+    "default": "1.1.0",
+    "clientA": "1.1.0",
+    "clientB": "1.0.0"
+  }
+}
