@@ -1,10 +1,10 @@
 {
-  "latest": "2.0.0",
+  "latest": "2.0.1",
   "min_supported": "1.0.0",
   "mandatory": false,
-  "changelog": "重大版本:数据库升级为 Supabase 全家桶(登录/REST网关/独立密钥)。1.x 用户需技术员重装,请勿点击升级",
-  "bundle_url": "",
-  "bundle_sha256": "",
+  "changelog": "安全加固(登录跳转/数据权限收紧);安装升级自动启动 Docker;新增卸载入口",
+  "bundle_url": "https://raw.githubusercontent.com/chunge-php/onprem-deploy-releases/master/bundle_v2.0.1.zip",
+  "bundle_sha256": "b7767d1395df4498045183abd22ba3b4a20c5c36923ccdc9f81683ed7c9e07a2",
   "images": {
     "app": "ghcr.io/chunge-php/onprem-deploy-demo/app"
   },
@@ -14,6 +14,11 @@
     "clientB": "1.0.0"
   },
   "history": [
+    {
+      "version": "2.0.1",
+      "date": "2026-07-11",
+      "changelog": "安全加固(登录跳转/数据权限收紧);安装升级自动启动 Docker;新增卸载入口"
+    },
     {
       "version": "2.0.0",
       "date": "2026-07-11",
