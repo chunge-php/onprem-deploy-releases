@@ -1,15 +1,20 @@
 {
-    "latest": "2.0.5",
+    "latest": "2.0.6",
     "min_supported": "1.0.0",
     "mandatory": false,
-    "changelog": "在线升级",
-    "bundle_url": "https://raw.githubusercontent.com/chunge-php/onprem-deploy-releases/master/bundle_v2.0.5.zip",
-    "bundle_sha256": "4510a68d6574456cf0994d3695eb9bf7c45ec3e08be532a72bc1d7f9d3045384",
+    "changelog": "修复升级问题",
+    "bundle_url": "https://raw.githubusercontent.com/chunge-php/onprem-deploy-releases/master/bundle_v2.0.6.zip",
+    "bundle_sha256": "08df35e68fa68d7dc60b590579d7a32be9df347e5578fb061bb3bcc7e9631166",
     "images": {
         "app": "ghcr.io/chunge-php/onprem-deploy-demo/app"
     },
     "channels": {},
     "history": [
+        {
+            "version": "2.0.6",
+            "date": "2026-07-11",
+            "changelog": "修复升级问题"
+        },
         {
             "version": "2.0.5",
             "date": "2026-07-11",
