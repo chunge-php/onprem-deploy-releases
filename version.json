@@ -1,8 +1,8 @@
 {
-  "latest": "1.0.2",
+  "latest": "1.0.4",
   "min_supported": "1.0.0",
-  "mandatory": false,
-  "changelog": "升级页优化:显示具体错误信息、新增更新历史列表;升级服务支持令牌自愈",
+  "mandatory": true,
+  "changelog": "新增「版本历史」页面(时间线展示所有版本);本次为强制更新",
   "bundle_url": "",
   "bundle_sha256": "",
   "images": {
@@ -14,6 +14,11 @@
     "clientB": "1.0.0"
   },
   "history": [
+    {
+      "version": "1.0.4",
+      "date": "2026-07-11",
+      "changelog": "新增「版本历史」页面(时间线展示所有版本)"
+    },
     {
       "version": "1.0.2",
       "date": "2026-07-11",
