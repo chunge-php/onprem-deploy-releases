@@ -12,5 +12,17 @@
     "default": "1.1.0",
     "clientA": "1.1.0",
     "clientB": "1.0.0"
-  }
+  },
+  "history": [
+    {
+      "version": "1.0.1",
+      "date": "2026-07-11",
+      "changelog": "修复了xx问题"
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-07-11",
+      "changelog": "首发版本"
+    }
+  ]
 }
