@@ -4,6 +4,7 @@
   "mandatory": false,
   "changelog": "新增 demo_items 表(演示数据库迁移),页面展示新数据",
   "bundle_url": "",
+  "bundle_sha256": "",
   "images": {
     "app": "ghcr.io/chunge-php/onprem-deploy-demo/app"
   },
