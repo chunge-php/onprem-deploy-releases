@@ -1,10 +1,10 @@
 {
-  "latest": "1.0.4",
+  "latest": "1.0.5",
   "min_supported": "1.0.0",
-  "mandatory": true,
-  "changelog": "新增「版本历史」页面(时间线展示所有版本);本次为强制更新",
-  "bundle_url": "",
-  "bundle_sha256": "",
+  "mandatory": false,
+  "changelog": "新增系统公告功能(含数据库变更,升级时自动建表)",
+  "bundle_url": "https://raw.githubusercontent.com/chunge-php/onprem-deploy-releases/master/bundle_v1.0.5.zip",
+  "bundle_sha256": "99e350c156b671ff7a52a4935745d8a8e5469134ba6e9e0f56db6c1e2436032e",
   "images": {
     "app": "ghcr.io/chunge-php/onprem-deploy-demo/app"
   },
@@ -14,6 +14,11 @@
     "clientB": "1.0.0"
   },
   "history": [
+    {
+      "version": "1.0.5",
+      "date": "2026-07-11",
+      "changelog": "新增系统公告功能(含数据库变更)"
+    },
     {
       "version": "1.0.4",
       "date": "2026-07-11",
