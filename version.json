@@ -1,8 +1,8 @@
 {
-  "latest": "1.1.0",
+  "latest": "1.0.1",
   "min_supported": "1.0.0",
   "mandatory": false,
-  "changelog": "新增 demo_items 表(演示数据库迁移),页面展示新数据",
+  "changelog": "修复了xx问题",
   "bundle_url": "",
   "bundle_sha256": "",
   "images": {
