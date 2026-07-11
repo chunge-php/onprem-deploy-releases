@@ -1,58 +1,21 @@
 ﻿{
-    "latest":  "2.0.2",
+    "latest":  "2.0.5",
     "min_supported":  "1.0.0",
     "mandatory":  false,
-    "changelog":  "修复bug",
-    "bundle_url":  "https://raw.githubusercontent.com/chunge-php/onprem-deploy-releases/master/bundle_v2.0.2.zip",
+    "changelog":  "在线升级",
+    "bundle_url":  "https://raw.githubusercontent.com/chunge-php/onprem-deploy-releases/master/bundle_v2.0.5.zip",
     "bundle_sha256":  "4510a68d6574456cf0994d3695eb9bf7c45ec3e08be532a72bc1d7f9d3045384",
     "images":  {
                    "app":  "ghcr.io/chunge-php/onprem-deploy-demo/app"
                },
     "channels":  {
-                     "default":  "1.1.0",
-                     "clientA":  "1.1.0",
-                     "clientB":  "1.0.0"
+
                  },
     "history":  [
                     {
-                        "version":  "2.0.2",
+                        "version":  "2.0.5",
                         "date":  "2026-07-11",
-                        "changelog":  "修复bug"
-                    },
-                    {
-                        "version":  "2.0.1",
-                        "date":  "2026-07-11",
-                        "changelog":  "安全加固(登录跳转/数据权限收紧);安装升级自动启动 Docker;新增卸载入口"
-                    },
-                    {
-                        "version":  "2.0.0",
-                        "date":  "2026-07-11",
-                        "changelog":  "数据库升级为 Supabase 全家桶(需重装)"
-                    },
-                    {
-                        "version":  "1.0.5",
-                        "date":  "2026-07-11",
-                        "changelog":  "新增系统公告功能(含数据库变更)"
-                    },
-                    {
-                        "version":  "1.0.4",
-                        "date":  "2026-07-11",
-                        "changelog":  "新增「版本历史」页面(时间线展示所有版本)"
-                    },
-                    {
-                        "version":  "1.0.2",
-                        "date":  "2026-07-11",
-                        "changelog":  "升级页优化:显示具体错误信息、新增更新历史列表;升级服务支持令牌自愈"
-                    },
-                    {
-                        "version":  "1.0.1",
-                        "date":  "2026-07-11",
-                        "changelog":  "修复了xx问题"
-                    },
-                    {
-                        "version":  "1.0.0",
-                        "date":  "2026-07-11",
-                        "changelog":  "首发版本"
+                        "changelog":  "在线升级"
                     }
                 ]
 }
